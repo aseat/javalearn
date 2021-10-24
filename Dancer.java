@@ -8,4 +8,4 @@ public class Dancer extends Character{
     System.out.println("的に3ポイントのダメージ");
    m.hp -=3;
    }
-}  
+}   
