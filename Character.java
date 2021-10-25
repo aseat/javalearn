@@ -1,8 +1,8 @@
-public abstract class Character {
-  String name;
-  int hp;
-  public void run(){
-    System.out.println(this.name + "は逃げ出した。");
+public class Character {
+   public static void character(){
+    Sample s = new Sample();
+    String val = s.setValue("hello");
+  s.getValue();
+  System.out.println(val);
   }
-  public abstract void attack(Mantago m);
 }
