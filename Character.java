@@ -5,4 +5,4 @@ public class Character {
   s.getValue();
   System.out.println(val);
   }
-}
+} 
