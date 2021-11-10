@@ -1,8 +1,9 @@
-public class Main {
-  public static void main(String[] args) {
-    int num=10;
-    if(num<=10)
-    System.out.println("x");
-    System.out.println("xm");
+public static void Main(String args[]){
+  disp(10, 7, 8);
+}
+
+private static void disp(int... num){
+  for (int i = 0; i < num.length; i++){
+    System.out.println(num[i]);
   }
-} 
+}
