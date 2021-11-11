@@ -7,3 +7,4 @@ private static void disp(int... num){
     System.out.println(num[i]);
   }
 }
+ 
